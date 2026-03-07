@@ -7,4 +7,4 @@ while n != 1:
   else:
    n = n * 3 + 1
   steps += 1
-print(1, steps)
+print(n, steps)
