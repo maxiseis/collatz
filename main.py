@@ -1,10 +1,15 @@
-n = int(input("Which Number:"))
-steps = 0
+n = 1
 
-while n != 1:
-  if n % 2 == 0:
-   n = n // 2
-  else:
-   n = n * 3 + 1
-  steps += 1
-print(n, steps)
+while True:
+    x = n
+    steps = 0
+
+    while x != 1:
+        if x % 2 == 0:
+            x //= 2
+        else:
+            x = 3*x + 1
+        steps += 1
+
+    print(n, steps)
+    n += 1
